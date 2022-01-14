@@ -5,3 +5,27 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+
+img {
+  width: 300px;
+}
+
+body {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  width: 300px;
+  margin-right: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+.load {
+  display: none;
+}
